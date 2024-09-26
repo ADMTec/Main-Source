@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main", "Main.vcxproj", "{83C6A8DE-5418-41B5-BD9C-471F99FEAAA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConnectServer_Config", "ConnectServer_Config", "{3BEFEC7B-69CC-4F64-9865-1143EDB14A29}"
+	ProjectSection(SolutionItems) = preProject
+		..\Source Server\ConnectServer\Release\ConnectServer_EX603\ServerList.xml = ..\Source Server\ConnectServer\Release\ConnectServer_EX603\ServerList.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameServer_Config", "GameServer_Config", "{5C2C06A2-98E6-45B7-B620-7284AE562628}"
+	ProjectSection(SolutionItems) = preProject
+		..\Source Server\GameServer\Release\Data\MapServerInfo.dat = ..\Source Server\GameServer\Release\Data\MapServerInfo.dat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Global Debug|x86 = Global Debug|x86
+		Global Release|x86 = Global Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83C6A8DE-5418-41B5-BD9C-471F99FEAAA0}.Global Debug|x86.ActiveCfg = Global Debug|Win32
+		{83C6A8DE-5418-41B5-BD9C-471F99FEAAA0}.Global Debug|x86.Build.0 = Global Debug|Win32
+		{83C6A8DE-5418-41B5-BD9C-471F99FEAAA0}.Global Release|x86.ActiveCfg = Global Release|Win32
+		{83C6A8DE-5418-41B5-BD9C-471F99FEAAA0}.Global Release|x86.Build.0 = Global Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46CBD986-0778-4FA7-8B9E-62CE67735BE4}
+	EndGlobalSection
+EndGlobal
